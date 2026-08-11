@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Clone du Portail Numérique UGB",
+    "category": "Développement Web",
+    "year": 2024,
+    "description": "Développement d'une application web universitaire avec système d'authentification, portail de services et espace d'administration.",
+    "image": "images/projects/accueil.png",
+    "technologies": ["HTML5", "CSS3", "JavaScript","SQL"],
+    "github": "https://github.com/fatima0203/ugb-digital-portal-clone",
+    "demo": "",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Samay Keuyit",
+    "category": "Application Mobile",
+    "year": 2025,
+    "description": "Application Flutter permettant de gérer les démarches administratives.",
+    "image": "images/projects/samayKeuyit.png",
+    "technologies": ["Flutter", "Firebase"],
+    "github": "",
+    "demo": "",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Portfolio Personnel",
+    "category": "Développement Web",
+    "year": 2026,
+    "description": "Portfolio développé avec Angular 21 et Bootstrap.",
+    "image": "images/projects/portofolio.png",
+    "technologies": ["Angular", "Bootstrap"],
+    "github": "https://github.com/fatima0203/portfolio-personnel.git",
+    "demo": "",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Gestion des Emplois du Temps Universitaires",
+    "category": "Développement Web",
+    "year": 2026,
+    "description": "Application web full-stack permettant aux étudiants et enseignants de consulter leurs emplois du temps et aux administrateurs de gérer les cours et les programmations. Le frontend est développé avec Angular et Bootstrap, tandis que le backend repose sur une API Laravel.",
+    "image": "images/projects/ConnexionAdmin.png",
+    "technologies": ["Angular", "Bootstrap","TyprScript","Laravel","MySQL"],
+    "github": "https://github.com/fatima0203/gestion-emplois-du-temps.git",
+    "demo": "",
+    "featured": true
+  }
+]

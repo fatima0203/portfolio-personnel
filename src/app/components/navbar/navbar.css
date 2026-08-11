@@ -1,0 +1,122 @@
+.navbar{
+
+    background:var(--card-bg);
+
+    height:80px;
+
+    transition:.4s;
+
+    box-shadow:var(--shadow);
+
+}
+
+.logo{
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:50%;
+
+    background:linear-gradient(135deg,var(--primary),var(--secondary));
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    font-weight:bold;
+
+    margin-right:12px;
+
+}
+
+.navbar-brand{
+
+    display:flex;
+
+    align-items:center;
+
+    font-weight:700;
+
+    color:var(--text-color);
+
+}
+
+.nav-link{
+
+    margin-left:20px;
+
+    font-weight:500;
+
+    color:var(--text-color);
+
+    transition:.3s;
+
+}
+
+.nav-link:hover{
+
+    color:var(--primary);
+
+}
+
+/* ==========================
+   Bouton Mode Sombre
+========================== */
+
+.theme-toggle{
+
+    width:45px;
+
+    height:45px;
+
+    margin-left:20px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:var(--section-bg);
+
+    color:var(--text-color);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    box-shadow:var(--shadow);
+
+}
+
+.theme-toggle:hover{
+
+    background:var(--primary);
+
+    color:white;
+
+    transform:rotate(20deg) scale(1.08);
+
+}
+
+
+.navbar-toggler{
+
+    border-color:var(--border-color);
+
+}
+
+.navbar-toggler-icon{
+
+    filter:var(--toggler-filter);
+
+}

@@ -1,0 +1,154 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* ==========================
+   THÈME CLAIR
+========================== */
+
+:root{
+
+    --toggler-filter:none;
+
+    --primary:#2563EB;
+    --secondary:#06B6D4;
+
+    --bg-color:#F8FAFC;
+    --section-bg:#FFFFFF;
+    --card-bg:#FFFFFF;
+
+    --text-color:#1E293B;
+    --text-secondary:#64748B;
+
+    --border-color:#E2E8F0;
+
+    --shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+/* ==========================
+   THÈME SOMBRE
+========================== */
+
+.dark-mode{
+
+
+    --toggler-filter:invert(1);
+    --primary:#4DABF7;
+    --secondary:#22D3EE;
+
+    --bg-color:#0F172A;
+    --section-bg:#1E293B;
+    --card-bg:#273549;
+
+    --text-color:#F8FAFC;
+    --text-secondary:#CBD5E1;
+
+    --border-color:#334155;
+
+    --shadow:0 8px 20px rgba(0,0,0,.45);
+
+}
+
+/* ==========================
+   RESET
+========================== */
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    background:var(--bg-color);
+
+    color:var(--text-color);
+
+    padding-top:80px;
+
+    transition:background .35s,color .35s;
+
+}
+
+/* ==========================
+   SECTION
+========================== */
+
+section{
+
+    padding:100px 0;
+
+    background:var(--section-bg);
+
+    transition:.35s;
+
+}
+
+/* ==========================
+   TITRES
+========================== */
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.section-title h2{
+
+    font-size:40px;
+
+    font-weight:700;
+
+    color:var(--text-color);
+
+}
+
+.section-title p{
+
+    color:var(--text-secondary);
+
+}
+
+/* ==========================
+   TEXTE
+========================== */
+
+h1,h2,h3,h4,h5,h6{
+
+    color:var(--text-color);
+
+}
+
+p{
+
+    color:var(--text-secondary);
+
+}
+
+a{
+
+    color:var(--primary);
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+a:hover{
+
+    color:var(--secondary);
+
+}

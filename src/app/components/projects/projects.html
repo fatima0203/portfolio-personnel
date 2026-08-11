@@ -1,0 +1,122 @@
+<section id="projects" class="py-5">
+
+  <div class="container">
+
+    <div class="text-center mb-5">
+    <div class="section-title">
+      <h2 >Mes Projets</h2>
+      <p >
+        Une sélection de projets académiques et personnels réalisés durant mon parcours.
+      </p>
+    </div>
+    </div>
+
+    <div class="row g-4">
+
+      @for(project of projects; track project.id){
+
+      <div class="col-lg-4 col-md-6">
+
+        <div class="project-card">
+
+          <div class="image-container">
+
+            <img
+              [src]="project.image"
+              [alt]="project.title">
+
+          </div>
+
+          <div class="content">
+
+            <span class="badge-category">
+
+              {{ project.category }}
+
+            </span>
+
+            <h4 class="project-title">
+
+              {{ project.title }}
+
+            </h4>
+
+            <small class="text-secondary">
+
+              {{ project.year }}
+
+            </small>
+
+            <p class="description mt-3">
+
+              {{ project.description }}
+
+            </p>
+
+            @if(project.technologies){
+
+            <div class="technologies">
+
+              @for(tech of project.technologies; track tech){
+
+                <span class="tech-badge">
+
+                  {{ tech }}
+
+                </span>
+
+              }
+
+            </div>
+
+            }
+
+       <div class="project-links">
+
+  @if(project.github){
+
+    <a
+      [href]="project.github"
+      target="_blank">
+
+      <i class="bi bi-github"></i>
+
+      GitHub
+
+    </a>
+
+  } @else {
+
+    <span class="disabled-link">
+
+      <i class="bi bi-github"></i>
+
+      Bientôt
+
+    </span>
+
+  }
+
+  <a href="#">
+
+    <i class="bi bi-eye"></i>
+
+    Voir le projet
+
+  </a>
+
+</div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      }
+
+    </div>
+
+  </div>
+
+</section>

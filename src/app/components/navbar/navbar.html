@@ -1,0 +1,69 @@
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+
+    <a class="navbar-brand fw-bold" href="#">
+      <span class="logo">FB</span>
+      Fatoumata Bâ
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarMenu">
+
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMenu">
+
+  <ul class="navbar-nav ms-auto align-items-lg-center">
+
+    <li class="nav-item">
+      <a class="nav-link" href="#home">Accueil</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#about">À propos</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#skills">Compétences</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#projects">Projets</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#education">Formation</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#contact">Contact</a>
+    </li>
+
+    <!-- Bouton thème -->
+    <li class="nav-item ms-lg-3">
+
+      <button
+        class="theme-toggle"
+        (click)="toggleTheme()">
+
+        <i
+          class="bi"
+          [class.bi-moon-fill]="!isDark"
+          [class.bi-sun-fill]="isDark">
+        </i>
+
+      </button>
+
+    </li>
+
+  </ul>
+
+</div>
+
+  </div>
+</nav>

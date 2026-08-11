@@ -1,0 +1,90 @@
+#contact{
+
+    background:var(--section-bg);
+
+}
+
+.contact-item{
+
+    display:flex;
+    align-items:center;
+    gap:20px;
+
+    background:var(--card-bg);
+
+    padding:25px;
+
+    border-radius:18px;
+
+    height:100%;
+
+    border:1px solid var(--border-color);
+
+    box-shadow:var(--shadow);
+
+    transition:all .3s ease;
+
+}
+
+.contact-item:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 12px 30px rgba(0,0,0,.15);
+
+}
+
+.icon{
+
+    width:60px;
+    height:60px;
+
+    background:var(--primary);
+
+    color:#fff;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:1.5rem;
+
+    flex-shrink:0;
+
+}
+
+.contact-item h5{
+
+    margin-bottom:5px;
+
+    font-weight:600;
+
+    color:var(--text-color);
+
+}
+
+.contact-item span{
+
+    color:var(--text-secondary);
+
+}
+
+.contact-item a{
+
+    text-decoration:none;
+
+    color:var(--primary);
+
+    font-weight:500;
+
+}
+
+.contact-item a:hover{
+
+    color:var(--secondary);
+
+    text-decoration:underline;
+
+}
