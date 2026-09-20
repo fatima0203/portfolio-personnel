@@ -46,5 +46,58 @@
     "github": "https://github.com/fatima0203/gestion-emplois-du-temps.git",
     "demo": "",
     "featured": true
-  }
+  },
+  {
+  "title": "AgriSurveil",
+  "category": "IA / Computer Vision",
+  "year": 2026,
+  "description": "Solution basée sur la Computer Vision et le Deep Learning permettant de détecter les maladies des plantes à partir d'une image. Un chatbot conversationnel permet ensuite d'échanger sur la maladie détectée et d'obtenir des informations sur les solutions et mesures préventives possibles.",
+   "image": "images/projects/AgriSurveil.png",
+  "technologies": [
+    "Python",
+    "Computer Vision", "Keras",
+    "Deep Learning",
+    "TensorFlow",
+    "Jupyter Notebook",
+    "Chatbot"
+  ],
+  "github": "https://github.com/fatima0203/agrisurveil",
+  "demo": "https://lnkd.in/p/ez3AZN3r",
+  "featured": true
+},
+{
+  "title": "Medical RAG",
+  "category": "IA / RAG",
+  "year": 2026,
+  "description": "Système intelligent basé sur l'architecture RAG (Retrieval-Augmented Generation) permettant d'interroger une base documentaire médicale en langage naturel. Le système combine la recherche sémantique de documents pertinents et la génération de réponses contextualisées par un modèle de langage.",
+  "image": "images/projects/chatbotRAG.png",
+  "technologies": [
+    "Python",
+    "RAG",
+    "LLM",
+    "Embeddings",
+    "Recherche sémantique",
+    "Base vectorielle"
+  ],
+  "github": "https://github.com/fatima0203/Medical-RAG",
+  "demo": "",
+  "featured": true
+},
+{
+  "title": "Analyse COVID-19",
+  "category": "Data Analytics / Business Intelligence",
+  "year": 2026,
+  "description": "Conception d'un tableau de bord interactif permettant d'analyser les données liées aux cas, décès et hospitalisations dus à la COVID-19. Le projet comprend le nettoyage et la transformation des données, la création d'indicateurs avec DAX et la réalisation de visualisations interactives.",
+  "image": "images/projects/PowerBI.jpeg",
+  "technologies": [
+    "Power BI",
+    "Power Query",
+    "DAX",
+    "Excel",
+    "Data Visualization"
+  ],
+  "github": "",
+  "demo": "",
+  "featured": true
+}
 ]
